@@ -3,10 +3,13 @@
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333333;
-    float: left;
+    background-color: #ee8309;
 }
 
-.li {
-    display: block;
+li {
+    float: left;
+    display: inline;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
