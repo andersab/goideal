@@ -3,7 +3,7 @@
       <ul>
           <li><a href="/home">Home</a></li>
           <li><a href="/ideas">Ideas</a></li>
-          <li><a href="/mindmaps">Mindmaps</a></li>
+          <li><a href="/mindmap">Mindmap</a></li>
       </ul>
   </div>
 </template>
