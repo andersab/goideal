@@ -8,8 +8,13 @@
   </div>
 </template>
 <script>
+import MindmapView from './MindmapView'
+
 export default {
-  name: 'navbar'
+  name: 'navbar',
+  components: {
+    MindmapView
+  }
 }
 </script>
 <style scoped>
