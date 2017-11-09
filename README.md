@@ -31,3 +31,5 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 
 
 (https://blog.sicara.com/a-progressive-web-application-with-vue-js-webpack-material-design-part-1-c243e2e6e402)
+
+(https://github.com/coligo-io/notes-app-vuejs-vuex)

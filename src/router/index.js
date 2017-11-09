@@ -2,6 +2,7 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import HomeView from '@/components/HomeView'
 import MindmapView from '@/components/MindmapView'
+import IdeaView from '@/components/IdeaView'
 
 Vue.use(Router)
 
@@ -11,6 +12,11 @@ export default new Router({
       path: '/',
       name: 'home',
       component: HomeView
+    },
+    {
+      path: '/idea',
+      name: 'idea',
+      component: IdeaView
     },
     {
       path: '/mindmap',

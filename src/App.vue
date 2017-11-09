@@ -11,6 +11,7 @@
         <nav class="mdl-navigation">
           <router-link class="mdl-navigation__link" to="/" @click.native="hideMenu">Home</router-link>
           <router-link class="mdl-navigation__link" to="/mindmap" @click.native="hideMenu">Mindmap</router-link>
+          <router-link class="mdl-navigation__link" to="/idea" @click.native="hideMenu">Idea</router-link>
         </nav>
       </div>
       <main class="mdl-layout__content">
