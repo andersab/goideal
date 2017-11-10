@@ -1,10 +1,20 @@
 <<template>
   <div class="ideaView">
-      IDEAS
+    <idea-toolbar></idea-toolbar>
+    <idea-form></idea-form>
   </div>
 </template>
 <script>
+import IdeaToolbar from './ideas/IdeaToolbar'
+import IdeaForm from './ideas/IdeaForm'
+
 export default {
-  name: 'IdeaView'
+  components: {
+    IdeaToolbar,
+    IdeaForm
+  }
 }
 </script>
+<style scoped>
+
+</style>

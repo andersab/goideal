@@ -4,7 +4,8 @@ import Vuex from 'vuex'
 Vue.use(Vuex)
 
 const state = {
-  ideas: []
+  ideas: [],
+  activeIdea: {}
 }
 
 const mutations = {
@@ -16,6 +17,16 @@ const mutations = {
     }
     state.ideas.push(newIdea)
     state.activeIdea = newIdea
+  },
+  EDIT_IDEA (state, text) {
+    state.activateIdea.text = text
+  },
+  DELETE_IDEA (state) {
+    state.ideas.$remove(state.activeIdea)
+    state.activeIdea = state.ideas[0]
+  },
+  SET_ACTIVE_IDEA (state, idea) {
+    state.activeIdea = idea
   }
 }
 

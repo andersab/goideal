@@ -1,6 +1,6 @@
 <<template>
   <div class="idea-list">
-      
+     IDEALIST 
   </div>
 </template>
 <script>

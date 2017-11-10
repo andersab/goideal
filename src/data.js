@@ -4,19 +4,19 @@ export default {
       'id': 0,
       'overview': 'some overview of idea 0.',
       'author': 'The Author',
-      'currentScore': '1'
+      'upvotes': '1'
     },
     {
       'id': 1,
       'overview': 'some overview of the idea 1.',
       'author': 'The Author',
-      'currentScore': '2'
+      'upvotes': '2'
     },
     {
       'id': 2,
       'overview': 'some overview of the idea 2.',
       'author': 'The Author',
-      'currentScore': '3'
+      'upvotes': '3'
     }
   ]
 }
